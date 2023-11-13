@@ -1,0 +1,2074 @@
+{
+  "lairName": "StressWorkerBenchCluster",
+  "owner": "tongyu",
+  "test": "",
+  "alias": "StressWorkerBenchCluster_0-local",
+  "parameters": {
+    "AlluxioDownloadUrl": "s3://twalluxio-swb/tars/alluxio-306-swb-bin.tar.gz",
+    "AlluxioEdition": "openSource",
+    "AlluxioVersion": "3.0.5-SNAPSHOT",
+    "IsRandom": false,
+    "Mode": "LOCAL_ONLY",
+    "Ufs": "hdfs"
+  },
+  "buildId": 392,
+  "buildIteration": 0,
+  "startTime": 1699856906,
+  "cloudStoragePath": "392/StressWorkerBenchCluster/StressWorkerBenchCluster/0/-StressWorkerBenchCluster_0-local-0.json",
+  "clusterName": "StressWorkerBenchCluster",
+  "iteration": 0,
+  "testState": "succeeded",
+  "version": 0,
+  "results": {
+    "className": "alluxio.stress.worker.WorkerBenchSummary",
+    "durationMs": 5212,
+    "endTimeMs": 1699857358752,
+    "iobytes": 118480699392,
+    "iombps": 21679.201,
+    "nodeResults": {
+      "StressWorkerBenchCluster-workers-0-1699857182201": {
+        "allThroughput": [],
+        "baseParameters": {
+          "mBenchTimeout": "6m",
+          "mCluster": false,
+          "mClusterLimit": 5,
+          "mClusterStartDelay": "10s",
+          "mDistributed": true,
+          "mHelp": false,
+          "mId": "StressWorkerBenchCluster-workers-0-1699857182201",
+          "mInProcess": true,
+          "mIndex": "0",
+          "mJavaOpts": [],
+          "mProfileAgent": "",
+          "mStartMs": 1699857350540
+        },
+        "className": "alluxio.stress.worker.WorkerBenchTaskResult",
+        "dataPoints": [
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 23,
+            "throughput": [],
+            "tid": 23,
+            "wid": 0,
+            "workerId": 0
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 26,
+            "throughput": [],
+            "tid": 26,
+            "wid": 0,
+            "workerId": 0
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 28,
+            "throughput": [],
+            "tid": 28,
+            "wid": 0,
+            "workerId": 0
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 15,
+                "iobytes": 503316480
+              }
+            ],
+            "threadId": 30,
+            "throughput": [],
+            "tid": 30,
+            "wid": 0,
+            "workerId": 0
+          },
+          {
+            "data": [
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 24,
+            "throughput": [],
+            "tid": 24,
+            "wid": 0,
+            "workerId": 0
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 21,
+                "iobytes": 704643072
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              }
+            ],
+            "threadId": 27,
+            "throughput": [],
+            "tid": 27,
+            "wid": 0,
+            "workerId": 0
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              }
+            ],
+            "threadId": 29,
+            "throughput": [],
+            "tid": 29,
+            "wid": 0,
+            "workerId": 0
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 15,
+                "iobytes": 503316480
+              }
+            ],
+            "threadId": 25,
+            "throughput": [],
+            "tid": 25,
+            "wid": 0,
+            "workerId": 0
+          }
+        ],
+        "endMs": 1699857358576,
+        "errors": [],
+        "iobytes": 24528289792,
+        "parameters": {
+          "className": "alluxio.stress.worker.WorkerBenchParameters",
+          "mBaseAlias": "",
+          "mBasePath": "alluxio:///stress-worker-base",
+          "mBufferSize": "1m",
+          "mClientType": "ALLUXIO_HDFS",
+          "mClients": 8,
+          "mConf": {},
+          "mDuration": "5s",
+          "mFileSize": "32mb",
+          "mFree": false,
+          "mIsRandom": false,
+          "mMode": "LOCAL_ONLY",
+          "mRandomMaxReadLength": "4m",
+          "mRandomMinReadLength": "1m",
+          "mRandomSeed": 1,
+          "mReadType": "CACHE",
+          "mSkipCreation": false,
+          "mSliceSize": "1s",
+          "mTag": "",
+          "mThreads": 8,
+          "mWarmup": "3s",
+          "mWriteType": "CACHE_THROUGH"
+        },
+        "recordStartMs": 1699857353540,
+        "throughputPercentiles": [
+          220,
+          385,
+          409,
+          421,
+          428,
+          440,
+          447,
+          458,
+          464,
+          475,
+          481,
+          485,
+          490,
+          494,
+          497,
+          500,
+          507,
+          512,
+          514,
+          519,
+          523,
+          525,
+          527,
+          530,
+          532,
+          534,
+          541,
+          544,
+          547,
+          548,
+          551,
+          553,
+          555,
+          559,
+          562,
+          564,
+          568,
+          571,
+          575,
+          577,
+          579,
+          580,
+          582,
+          584,
+          587,
+          589,
+          590,
+          592,
+          594,
+          597,
+          598,
+          600,
+          602,
+          604,
+          607,
+          608,
+          611,
+          612,
+          614,
+          617,
+          618,
+          620,
+          622,
+          628,
+          630,
+          632,
+          635,
+          638,
+          640,
+          643,
+          646,
+          647,
+          651,
+          653,
+          655,
+          658,
+          660,
+          661,
+          664,
+          668,
+          673,
+          677,
+          680,
+          685,
+          689,
+          695,
+          702,
+          709,
+          713,
+          718,
+          722,
+          728,
+          741,
+          749,
+          758,
+          763,
+          776,
+          797,
+          815,
+          861,
+          1023
+        ]
+      },
+      "StressWorkerBenchCluster-workers-1-1699857182203": {
+        "allThroughput": [],
+        "baseParameters": {
+          "mBenchTimeout": "6m",
+          "mCluster": false,
+          "mClusterLimit": 5,
+          "mClusterStartDelay": "10s",
+          "mDistributed": true,
+          "mHelp": false,
+          "mId": "StressWorkerBenchCluster-workers-1-1699857182203",
+          "mInProcess": true,
+          "mIndex": "1",
+          "mJavaOpts": [],
+          "mProfileAgent": "",
+          "mStartMs": 1699857350600
+        },
+        "className": "alluxio.stress.worker.WorkerBenchTaskResult",
+        "dataPoints": [
+          {
+            "data": [
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              }
+            ],
+            "threadId": 25,
+            "throughput": [],
+            "tid": 25,
+            "wid": 1,
+            "workerId": 1
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              }
+            ],
+            "threadId": 27,
+            "throughput": [],
+            "tid": 27,
+            "wid": 1,
+            "workerId": 1
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              }
+            ],
+            "threadId": 24,
+            "throughput": [],
+            "tid": 24,
+            "wid": 1,
+            "workerId": 1
+          },
+          {
+            "data": [
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 30,
+            "throughput": [],
+            "tid": 30,
+            "wid": 1,
+            "workerId": 1
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 15,
+                "iobytes": 503316480
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 23,
+            "throughput": [],
+            "tid": 23,
+            "wid": 1,
+            "workerId": 1
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 29,
+            "throughput": [],
+            "tid": 29,
+            "wid": 1,
+            "workerId": 1
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              }
+            ],
+            "threadId": 28,
+            "throughput": [],
+            "tid": 28,
+            "wid": 1,
+            "workerId": 1
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              }
+            ],
+            "threadId": 26,
+            "throughput": [],
+            "tid": 26,
+            "wid": 1,
+            "workerId": 1
+          }
+        ],
+        "endMs": 1699857358637,
+        "errors": [],
+        "iobytes": 23521656832,
+        "parameters": {
+          "className": "alluxio.stress.worker.WorkerBenchParameters",
+          "mBaseAlias": "",
+          "mBasePath": "alluxio:///stress-worker-base",
+          "mBufferSize": "1m",
+          "mClientType": "ALLUXIO_HDFS",
+          "mClients": 8,
+          "mConf": {},
+          "mDuration": "5s",
+          "mFileSize": "32mb",
+          "mFree": false,
+          "mIsRandom": false,
+          "mMode": "LOCAL_ONLY",
+          "mRandomMaxReadLength": "4m",
+          "mRandomMinReadLength": "1m",
+          "mRandomSeed": 1,
+          "mReadType": "CACHE",
+          "mSkipCreation": false,
+          "mSliceSize": "1s",
+          "mTag": "",
+          "mThreads": 8,
+          "mWarmup": "3s",
+          "mWriteType": "CACHE_THROUGH"
+        },
+        "recordStartMs": 1699857353600,
+        "throughputPercentiles": [
+          246,
+          383,
+          396,
+          415,
+          422,
+          434,
+          440,
+          447,
+          454,
+          459,
+          463,
+          472,
+          474,
+          478,
+          483,
+          487,
+          490,
+          492,
+          496,
+          501,
+          507,
+          510,
+          515,
+          518,
+          520,
+          522,
+          523,
+          525,
+          527,
+          529,
+          530,
+          532,
+          534,
+          537,
+          538,
+          542,
+          544,
+          545,
+          547,
+          549,
+          551,
+          553,
+          554,
+          556,
+          560,
+          561,
+          565,
+          566,
+          569,
+          569,
+          571,
+          572,
+          574,
+          576,
+          578,
+          579,
+          581,
+          584,
+          586,
+          589,
+          591,
+          593,
+          595,
+          597,
+          599,
+          602,
+          604,
+          605,
+          608,
+          611,
+          614,
+          616,
+          619,
+          623,
+          625,
+          629,
+          632,
+          634,
+          635,
+          638,
+          640,
+          642,
+          644,
+          649,
+          657,
+          662,
+          665,
+          672,
+          679,
+          689,
+          703,
+          710,
+          713,
+          727,
+          737,
+          752,
+          761,
+          775,
+          803,
+          857,
+          1081
+        ]
+      },
+      "StressWorkerBenchCluster-workers-2-1699857182204": {
+        "allThroughput": [],
+        "baseParameters": {
+          "mBenchTimeout": "6m",
+          "mCluster": false,
+          "mClusterLimit": 5,
+          "mClusterStartDelay": "10s",
+          "mDistributed": true,
+          "mHelp": false,
+          "mId": "StressWorkerBenchCluster-workers-2-1699857182204",
+          "mInProcess": true,
+          "mIndex": "2",
+          "mJavaOpts": [],
+          "mProfileAgent": "",
+          "mStartMs": 1699857350717
+        },
+        "className": "alluxio.stress.worker.WorkerBenchTaskResult",
+        "dataPoints": [
+          {
+            "data": [
+              {
+                "count": 15,
+                "iobytes": 503316480
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 15,
+                "iobytes": 503316480
+              }
+            ],
+            "threadId": 27,
+            "throughput": [],
+            "tid": 27,
+            "wid": 2,
+            "workerId": 2
+          },
+          {
+            "data": [
+              {
+                "count": 15,
+                "iobytes": 503316480
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 14,
+                "iobytes": 469762048
+              }
+            ],
+            "threadId": 30,
+            "throughput": [],
+            "tid": 30,
+            "wid": 2,
+            "workerId": 2
+          },
+          {
+            "data": [
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 15,
+                "iobytes": 503316480
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              },
+              {
+                "count": 14,
+                "iobytes": 469762048
+              }
+            ],
+            "threadId": 23,
+            "throughput": [],
+            "tid": 23,
+            "wid": 2,
+            "workerId": 2
+          },
+          {
+            "data": [
+              {
+                "count": 15,
+                "iobytes": 503316480
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 14,
+                "iobytes": 469762048
+              }
+            ],
+            "threadId": 26,
+            "throughput": [],
+            "tid": 26,
+            "wid": 2,
+            "workerId": 2
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 15,
+                "iobytes": 503316480
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 14,
+                "iobytes": 469762048
+              }
+            ],
+            "threadId": 29,
+            "throughput": [],
+            "tid": 29,
+            "wid": 2,
+            "workerId": 2
+          },
+          {
+            "data": [
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 14,
+                "iobytes": 469762048
+              }
+            ],
+            "threadId": 28,
+            "throughput": [],
+            "tid": 28,
+            "wid": 2,
+            "workerId": 2
+          },
+          {
+            "data": [
+              {
+                "count": 16,
+                "iobytes": 536870912
+              },
+              {
+                "count": 15,
+                "iobytes": 503316480
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 15,
+                "iobytes": 503316480
+              }
+            ],
+            "threadId": 25,
+            "throughput": [],
+            "tid": 25,
+            "wid": 2,
+            "workerId": 2
+          },
+          {
+            "data": [
+              {
+                "count": 15,
+                "iobytes": 503316480
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 14,
+                "iobytes": 469762048
+              }
+            ],
+            "threadId": 24,
+            "throughput": [],
+            "tid": 24,
+            "wid": 2,
+            "workerId": 2
+          }
+        ],
+        "endMs": 1699857358752,
+        "errors": [],
+        "iobytes": 21709717504,
+        "parameters": {
+          "className": "alluxio.stress.worker.WorkerBenchParameters",
+          "mBaseAlias": "",
+          "mBasePath": "alluxio:///stress-worker-base",
+          "mBufferSize": "1m",
+          "mClientType": "ALLUXIO_HDFS",
+          "mClients": 8,
+          "mConf": {},
+          "mDuration": "5s",
+          "mFileSize": "32mb",
+          "mFree": false,
+          "mIsRandom": false,
+          "mMode": "LOCAL_ONLY",
+          "mRandomMaxReadLength": "4m",
+          "mRandomMinReadLength": "1m",
+          "mRandomSeed": 1,
+          "mReadType": "CACHE",
+          "mSkipCreation": false,
+          "mSliceSize": "1s",
+          "mTag": "",
+          "mThreads": 8,
+          "mWarmup": "3s",
+          "mWriteType": "CACHE_THROUGH"
+        },
+        "recordStartMs": 1699857353717,
+        "throughputPercentiles": [
+          250,
+          322,
+          356,
+          364,
+          372,
+          382,
+          388,
+          396,
+          404,
+          410,
+          416,
+          423,
+          428,
+          432,
+          437,
+          441,
+          444,
+          447,
+          451,
+          454,
+          458,
+          461,
+          464,
+          467,
+          471,
+          473,
+          475,
+          478,
+          481,
+          483,
+          485,
+          489,
+          492,
+          496,
+          498,
+          501,
+          502,
+          503,
+          506,
+          508,
+          509,
+          511,
+          513,
+          514,
+          516,
+          517,
+          519,
+          524,
+          525,
+          527,
+          529,
+          530,
+          532,
+          534,
+          537,
+          541,
+          543,
+          544,
+          547,
+          549,
+          552,
+          553,
+          554,
+          556,
+          559,
+          564,
+          566,
+          569,
+          572,
+          575,
+          578,
+          583,
+          588,
+          590,
+          592,
+          594,
+          597,
+          603,
+          606,
+          609,
+          611,
+          615,
+          620,
+          623,
+          629,
+          632,
+          638,
+          643,
+          646,
+          650,
+          658,
+          664,
+          673,
+          684,
+          703,
+          714,
+          729,
+          745,
+          775,
+          821,
+          908
+        ]
+      },
+      "StressWorkerBenchCluster-workers-3-1699857182205": {
+        "allThroughput": [],
+        "baseParameters": {
+          "mBenchTimeout": "6m",
+          "mCluster": false,
+          "mClusterLimit": 5,
+          "mClusterStartDelay": "10s",
+          "mDistributed": true,
+          "mHelp": false,
+          "mId": "StressWorkerBenchCluster-workers-3-1699857182205",
+          "mInProcess": true,
+          "mIndex": "3",
+          "mJavaOpts": [],
+          "mProfileAgent": "",
+          "mStartMs": 1699857350086
+        },
+        "className": "alluxio.stress.worker.WorkerBenchTaskResult",
+        "dataPoints": [
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              }
+            ],
+            "threadId": 24,
+            "throughput": [],
+            "tid": 24,
+            "wid": 3,
+            "workerId": 3
+          },
+          {
+            "data": [
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              }
+            ],
+            "threadId": 27,
+            "throughput": [],
+            "tid": 27,
+            "wid": 3,
+            "workerId": 3
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 28,
+            "throughput": [],
+            "tid": 28,
+            "wid": 3,
+            "workerId": 3
+          },
+          {
+            "data": [
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 26,
+            "throughput": [],
+            "tid": 26,
+            "wid": 3,
+            "workerId": 3
+          },
+          {
+            "data": [
+              {
+                "count": 16,
+                "iobytes": 536870912
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 30,
+            "throughput": [],
+            "tid": 30,
+            "wid": 3,
+            "workerId": 3
+          },
+          {
+            "data": [
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              }
+            ],
+            "threadId": 23,
+            "throughput": [],
+            "tid": 23,
+            "wid": 3,
+            "workerId": 3
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 29,
+            "throughput": [],
+            "tid": 29,
+            "wid": 3,
+            "workerId": 3
+          },
+          {
+            "data": [
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 25,
+            "throughput": [],
+            "tid": 25,
+            "wid": 3,
+            "workerId": 3
+          }
+        ],
+        "endMs": 1699857358110,
+        "errors": [],
+        "iobytes": 23790092288,
+        "parameters": {
+          "className": "alluxio.stress.worker.WorkerBenchParameters",
+          "mBaseAlias": "",
+          "mBasePath": "alluxio:///stress-worker-base",
+          "mBufferSize": "1m",
+          "mClientType": "ALLUXIO_HDFS",
+          "mClients": 8,
+          "mConf": {},
+          "mDuration": "5s",
+          "mFileSize": "32mb",
+          "mFree": false,
+          "mIsRandom": false,
+          "mMode": "LOCAL_ONLY",
+          "mRandomMaxReadLength": "4m",
+          "mRandomMinReadLength": "1m",
+          "mRandomSeed": 1,
+          "mReadType": "CACHE",
+          "mSkipCreation": false,
+          "mSliceSize": "1s",
+          "mTag": "",
+          "mThreads": 8,
+          "mWarmup": "3s",
+          "mWriteType": "CACHE_THROUGH"
+        },
+        "recordStartMs": 1699857353086,
+        "throughputPercentiles": [
+          301,
+          367,
+          392,
+          419,
+          429,
+          436,
+          439,
+          443,
+          450,
+          456,
+          459,
+          470,
+          475,
+          480,
+          484,
+          490,
+          497,
+          501,
+          503,
+          505,
+          508,
+          510,
+          512,
+          515,
+          516,
+          521,
+          523,
+          526,
+          527,
+          528,
+          533,
+          534,
+          536,
+          539,
+          542,
+          544,
+          547,
+          548,
+          551,
+          553,
+          555,
+          556,
+          558,
+          561,
+          564,
+          567,
+          569,
+          574,
+          577,
+          579,
+          582,
+          585,
+          588,
+          589,
+          591,
+          594,
+          596,
+          599,
+          602,
+          604,
+          606,
+          608,
+          610,
+          612,
+          616,
+          618,
+          621,
+          624,
+          626,
+          630,
+          634,
+          637,
+          642,
+          645,
+          647,
+          650,
+          656,
+          661,
+          667,
+          671,
+          674,
+          675,
+          680,
+          682,
+          686,
+          689,
+          698,
+          703,
+          706,
+          713,
+          718,
+          727,
+          736,
+          748,
+          757,
+          765,
+          779,
+          791,
+          828,
+          868,
+          1070
+        ]
+      },
+      "StressWorkerBenchCluster-workers-4-1699857182202": {
+        "allThroughput": [],
+        "baseParameters": {
+          "mBenchTimeout": "6m",
+          "mCluster": false,
+          "mClusterLimit": 5,
+          "mClusterStartDelay": "10s",
+          "mDistributed": true,
+          "mHelp": false,
+          "mId": "StressWorkerBenchCluster-workers-4-1699857182202",
+          "mInProcess": true,
+          "mIndex": "4",
+          "mJavaOpts": [],
+          "mProfileAgent": "",
+          "mStartMs": 1699857350550
+        },
+        "className": "alluxio.stress.worker.WorkerBenchTaskResult",
+        "dataPoints": [
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 24,
+            "throughput": [],
+            "tid": 24,
+            "wid": 4,
+            "workerId": 4
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 27,
+            "throughput": [],
+            "tid": 27,
+            "wid": 4,
+            "workerId": 4
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 23,
+            "throughput": [],
+            "tid": 23,
+            "wid": 4,
+            "workerId": 4
+          },
+          {
+            "data": [
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              }
+            ],
+            "threadId": 29,
+            "throughput": [],
+            "tid": 29,
+            "wid": 4,
+            "workerId": 4
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              }
+            ],
+            "threadId": 26,
+            "throughput": [],
+            "tid": 26,
+            "wid": 4,
+            "workerId": 4
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 30,
+            "throughput": [],
+            "tid": 30,
+            "wid": 4,
+            "workerId": 4
+          },
+          {
+            "data": [
+              {
+                "count": 18,
+                "iobytes": 603979776
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 16,
+                "iobytes": 536870912
+              }
+            ],
+            "threadId": 25,
+            "throughput": [],
+            "tid": 25,
+            "wid": 4,
+            "workerId": 4
+          },
+          {
+            "data": [
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 20,
+                "iobytes": 671088640
+              },
+              {
+                "count": 19,
+                "iobytes": 637534208
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              },
+              {
+                "count": 17,
+                "iobytes": 570425344
+              }
+            ],
+            "threadId": 28,
+            "throughput": [],
+            "tid": 28,
+            "wid": 4,
+            "workerId": 4
+          }
+        ],
+        "endMs": 1699857358570,
+        "errors": [],
+        "iobytes": 24930942976,
+        "parameters": {
+          "className": "alluxio.stress.worker.WorkerBenchParameters",
+          "mBaseAlias": "",
+          "mBasePath": "alluxio:///stress-worker-base",
+          "mBufferSize": "1m",
+          "mClientType": "ALLUXIO_HDFS",
+          "mClients": 8,
+          "mConf": {},
+          "mDuration": "5s",
+          "mFileSize": "32mb",
+          "mFree": false,
+          "mIsRandom": false,
+          "mMode": "LOCAL_ONLY",
+          "mRandomMaxReadLength": "4m",
+          "mRandomMinReadLength": "1m",
+          "mRandomSeed": 1,
+          "mReadType": "CACHE",
+          "mSkipCreation": false,
+          "mSliceSize": "1s",
+          "mTag": "",
+          "mThreads": 8,
+          "mWarmup": "3s",
+          "mWriteType": "CACHE_THROUGH"
+        },
+        "recordStartMs": 1699857353550,
+        "throughputPercentiles": [
+          262,
+          370,
+          399,
+          433,
+          444,
+          456,
+          466,
+          476,
+          481,
+          485,
+          490,
+          494,
+          501,
+          507,
+          510,
+          513,
+          516,
+          522,
+          526,
+          528,
+          532,
+          536,
+          538,
+          542,
+          545,
+          546,
+          549,
+          553,
+          557,
+          559,
+          562,
+          565,
+          569,
+          572,
+          574,
+          576,
+          577,
+          578,
+          579,
+          581,
+          584,
+          586,
+          589,
+          591,
+          592,
+          595,
+          596,
+          599,
+          602,
+          605,
+          606,
+          608,
+          611,
+          612,
+          615,
+          618,
+          621,
+          623,
+          625,
+          628,
+          630,
+          632,
+          634,
+          637,
+          640,
+          642,
+          644,
+          648,
+          651,
+          655,
+          657,
+          659,
+          664,
+          669,
+          672,
+          676,
+          680,
+          686,
+          692,
+          695,
+          700,
+          704,
+          709,
+          712,
+          717,
+          721,
+          728,
+          733,
+          736,
+          743,
+          754,
+          764,
+          774,
+          786,
+          797,
+          809,
+          820,
+          837,
+          859,
+          892,
+          1059
+        ]
+      }
+    },
+    "parameters": {
+      "className": "alluxio.stress.worker.WorkerBenchParameters",
+      "mBaseAlias": "",
+      "mBasePath": "alluxio:///stress-worker-base",
+      "mBufferSize": "1m",
+      "mClientType": "ALLUXIO_HDFS",
+      "mClients": 8,
+      "mConf": {},
+      "mDuration": "5s",
+      "mFileSize": "32mb",
+      "mFree": false,
+      "mIsRandom": false,
+      "mMode": "LOCAL_ONLY",
+      "mRandomMaxReadLength": "4m",
+      "mRandomMinReadLength": "1m",
+      "mRandomSeed": 1,
+      "mReadType": "CACHE",
+      "mSkipCreation": false,
+      "mSliceSize": "1s",
+      "mTag": "",
+      "mThreads": 8,
+      "mWarmup": "3s",
+      "mWriteType": "CACHE_THROUGH"
+    },
+    "throughput": 21679.201,
+    "throughputPercentiles": [
+      220,
+      359,
+      383,
+      399,
+      416,
+      425,
+      434,
+      440,
+      447,
+      453,
+      459,
+      464,
+      472,
+      475,
+      480,
+      483,
+      488,
+      492,
+      496,
+      500,
+      503,
+      507,
+      509,
+      512,
+      515,
+      517,
+      521,
+      524,
+      526,
+      528,
+      530,
+      532,
+      534,
+      537,
+      541,
+      544,
+      546,
+      548,
+      550,
+      552,
+      554,
+      556,
+      559,
+      562,
+      565,
+      568,
+      571,
+      573,
+      576,
+      577,
+      579,
+      581,
+      584,
+      587,
+      589,
+      591,
+      593,
+      596,
+      598,
+      600,
+      603,
+      606,
+      608,
+      610,
+      612,
+      615,
+      618,
+      620,
+      623,
+      626,
+      630,
+      632,
+      635,
+      638,
+      641,
+      644,
+      647,
+      650,
+      655,
+      658,
+      662,
+      667,
+      672,
+      676,
+      680,
+      686,
+      693,
+      701,
+      706,
+      712,
+      717,
+      727,
+      735,
+      743,
+      755,
+      765,
+      780,
+      801,
+      826,
+      868,
+      1081
+    ]
+  }
+}
